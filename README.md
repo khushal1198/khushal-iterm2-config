@@ -16,6 +16,25 @@ git clone https://github.com/YOUR_USERNAME/khushal-iterm2-config.git ~/khushal-i
 4. Set the folder to `~/khushal-iterm2-config`.
 5. Restart iTerm2.
 
+## 🔧 Shell Integration & Auto-Complete
+
+Enable powerful features like auto-complete and command history:
+
+```bash
+# Step 1: Install iTerm2 shell integration
+curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
+
+# Step 2: Activate immediately (for zsh)
+source ~/.iterm2_shell_integration.zsh
+```
+
+Note: Shell integration enables features like:
+- Command auto-completion
+- Command history
+- Directory history
+- Recent directories
+- Shell integration status in prompt
+
 ## 💾 Auto-Sync
 
 To auto-save config changes:
