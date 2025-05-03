@@ -2,6 +2,26 @@
 
 This repository contains my personal iTerm2 configuration, including theme, color schemes, and shell integration. It uses iTerm2's Dynamic Profiles feature for better portability and easier management.
 
+## 📁 Repository Structure
+
+- `iterm2-profile-khushal.json` - iTerm2 profile configuration including:
+  - **Terminal Settings**: Type, scrollback, mouse reporting, session handling
+  - **Window Settings**: Transparency, blur, dimensions, resizing behavior
+  - **Text Settings**: Font rendering, anti-aliasing, bold/italic styles
+  - **Color Schemes**: Dark and light mode color configurations
+  - **Cursor Settings**: Style, color, and behavior
+  - **Keyboard**: Key mappings and special key handling
+- `.p10k.zsh` - Powerlevel10k theme configuration with custom prompt settings
+- `.gitignore` - Git ignore rules for system and temporary files
+
+## 🎨 Color Scheme
+
+The profile includes a carefully crafted color scheme that:
+- Supports both dark and light modes
+- Uses high-contrast colors for better readability
+- Includes special configurations for cursor, selection, and badges
+- Optimized for both regular and bold text
+
 ## 🚀 Setup Steps
 
 ### 1. Clone the Repository
@@ -17,7 +37,7 @@ mkdir -p ~/Library/Application\ Support/iTerm2/DynamicProfiles
 ```
 3. Link the profile:
 ```bash
-ln -sf ~/khushal-iterm2-config/Default.json ~/Library/Application\ Support/iTerm2/DynamicProfiles/
+ln -sf ~/khushal-iterm2-config/iterm2-profile-khushal.json ~/Library/Application\ Support/iTerm2/DynamicProfiles/
 ```
 4. Restart iTerm2 or reload preferences (⌘⇧R)
 5. Go to **Profiles** and select the imported profile

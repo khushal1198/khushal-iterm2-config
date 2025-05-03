@@ -1,22 +1,79 @@
 {
   "Profiles": [
     {
-      "Close Sessions On End" : true,
+      "Name": "Khushal's iTerm2 Profile",
+      "Guid": "0D1270FE-7F1B-41D9-A0B8-52229032D96F",
+      "Description": "Custom iTerm2 profile with dark/light theme support",
+      "Working Directory": "/Users/khushal",
+      
+      "Terminal Type": "xterm-256color",
+      "Scrollback Lines": 1000,
+      "Unlimited Scrollback": false,
+      "Mouse Reporting": true,
+      "Close Sessions On End": true,
+      "Prompt Before Closing 2": false,
+      "Visual Bell": true,
+      "BM Growl": true,
+      
+      "Window Settings": {
+        "Transparency": 0,
+        "Blur": false,
+        "Columns": 80,
+        "Vertical Spacing": 1,
+        "Horizontal Spacing": 1,
+        "Only The Default BG Color Uses Transparency": true,
+        "Disable Window Resizing": true
+      },
+      
+      "Text Settings": {
+        "Non-ASCII Anti Aliased": true,
+        "Use Italic Font": true,
+        "Use Bright Bold": true,
+        "Faint Text Alpha": 0.5
+      },
+      
+      "Cursor Settings": {
+        "Cursor Type": 2,
+        "Smart Cursor Color": false,
+        "Cursor Boost (Dark)": 0,
+        "Use Cursor Guide (Dark)": false,
+        "Use Cursor Guide (Light)": false
+      },
+      
+      // Terminal settings
+      "Terminal Type": "xterm-256color",
+      "Scrollback Lines": 1000,
+      "Unlimited Scrollback": false,
+      "Mouse Reporting": true,
+      "Close Sessions On End": true,
+      "Prompt Before Closing 2": false,
+      
+      // Window appearance
+      "Transparency": 0,
+      "Blur": false,
+      "Columns": 80,
+      "Vertical Spacing": 1,
+      "Horizontal Spacing": 1,
+      "Use Cursor Guide (Dark)": false,
+      "Use Cursor Guide (Light)": false,
+      "Only The Default BG Color Uses Transparency": true,
+      
+      // Text rendering
+      "Non-ASCII Anti Aliased": true,
+      "Use Italic Font": true,
+      "Use Bright Bold": true,
+      
+      // Cursor configuration
+      "Cursor Type": 2,
+      "Smart Cursor Color": false,
+      "Cursor Boost (Dark)": 0,
+      
+      // Color scheme configuration
       "Ansi 15 Color (Dark)" : {
         "Green Component" : 0.99997437000274658,
         "Red Component" : 1,
         "Blue Component" : 0.99999129772186279
       },
-      "Non-ASCII Anti Aliased" : true,
-      "Cursor Text Color" : {
-        "Red Component" : 0,
-        "Color Space" : "sRGB",
-        "Blue Component" : 0,
-        "Alpha Component" : 1,
-        "Green Component" : 0
-      },
-      "Smart Cursor Color" : false,
-      "Prompt Before Closing 2" : false,
       "Ansi 3 Color (Dark)" : {
         "Green Component" : 0.81672251224517822,
         "Red Component" : 0.99627053737640381,
@@ -27,16 +84,11 @@
         "Red Component" : 0.43880558013916016,
         "Blue Component" : 0.99898606538772583
       },
-      "Mouse Reporting" : true,
-      "Use Underline Color (Light)" : false,
-      "Disable Window Resizing" : true,
-      "BM Growl" : true,
       "Background Color (Dark)" : {
         "Green Component" : 0.14745020866394043,
         "Red Component" : 0.11278382688760757,
         "Blue Component" : 0.16608485579490662
       },
-      "Guid" : "0D1270FE-7F1B-41D9-A0B8-52229032D96F",
       "Cursor Color (Dark)" : {
         "Green Component" : 0.91671288013458252,
         "Red Component" : 0.91654461622238159,
@@ -47,8 +99,6 @@
         "Red Component" : 0.30659490823745728,
         "Blue Component" : 0.47096589207649231
       },
-      "Only The Default BG Color Uses Transparency" : true,
-      "Scrollback Lines" : 1000,
       "Badge Color (Dark)" : {
         "Red Component" : 1,
         "Color Space" : "sRGB",
@@ -139,11 +189,6 @@
       "Use Tab Color (Light)" : false,
       "Cursor Type" : 2,
       "Columns" : 80,
-      "Ansi 2 Color (Light)" : {
-        "Green Component" : 0.94388872385025024,
-        "Red Component" : 0.36202818155288696,
-        "Blue Component" : 0.62042194604873657
-      },
       "Screen" : -1,
       "Cursor Text Color (Dark)" : {
         "Green Component" : 0,
@@ -153,7 +198,6 @@
       "Description" : "Default",
       "Unlimited Scrollback" : false,
       "Use Italic Font" : true,
-      "Working Directory" : "\/Users\/kpujara",
       "Selected Text Color (Dark)" : {
         "Green Component" : 0.92142927646636963,
         "Red Component" : 0.90730977058410645,
