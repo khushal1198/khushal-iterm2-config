@@ -5,6 +5,7 @@
       "Guid": "0D1270FE-7F1B-41D9-A0B8-52229032D96F",
       "Description": "Custom iTerm2 profile with dark/light theme support",
       "Working Directory": "/Users/khushal",
+      "Dynamic Profile Parent Name": "Default",
       
       "Terminal Type": "xterm-256color",
       "Scrollback Lines": 1000,
@@ -29,7 +30,9 @@
         "Non-ASCII Anti Aliased": true,
         "Use Italic Font": true,
         "Use Bright Bold": true,
-        "Faint Text Alpha": 0.5
+        "Faint Text Alpha": 0.5,
+        "Normal Font": "MesloLGS-NF-Regular 15",
+        "Non Ascii Font": "MesloLGS-NF-Regular 15"
       },
       
       "Cursor Settings": {
@@ -40,7 +43,6 @@
         "Use Cursor Guide (Light)": false
       },
       
-      // Terminal settings
       "Terminal Type": "xterm-256color",
       "Scrollback Lines": 1000,
       "Unlimited Scrollback": false,
@@ -48,7 +50,6 @@
       "Close Sessions On End": true,
       "Prompt Before Closing 2": false,
       
-      // Window appearance
       "Transparency": 0,
       "Blur": false,
       "Columns": 80,
@@ -58,17 +59,14 @@
       "Use Cursor Guide (Light)": false,
       "Only The Default BG Color Uses Transparency": true,
       
-      // Text rendering
       "Non-ASCII Anti Aliased": true,
       "Use Italic Font": true,
       "Use Bright Bold": true,
       
-      // Cursor configuration
       "Cursor Type": 2,
       "Smart Cursor Color": false,
       "Cursor Boost (Dark)": 0,
       
-      // Color scheme configuration
       "Ansi 15 Color (Dark)" : {
         "Green Component" : 0.99997437000274658,
         "Red Component" : 1,
